@@ -7,9 +7,9 @@ const app = express()
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send("<h3>Welcome to djmiked.com</h3>")
+  res.send('Welcome to djmiked.com')
 })
 
 app.listen(PORT, () => {
-    console.log(`djmiked.com is listening on port: ${PORT}`)
+  console.log(`djmiked.com is listening on port: ${PORT}`)
 })
