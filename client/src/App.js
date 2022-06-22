@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import MainPage from './components/MainPage'
 import GalleryPage from './components/GalleryPage'
+import PatreonPage from './components/PatreonPage'
+import ContactPage from './components/ContactPage'
 
 import './App.css'
 
@@ -11,6 +13,8 @@ const App = () => {
     <Routes>
       <Route path='/' exact element={<MainPage />}></Route>
       <Route path='/gallery' element={<GalleryPage />}></Route>
+      <Route path='/patreon' element={<PatreonPage />}></Route>
+      <Route path='/contact' element={<ContactPage />}></Route>
     </Routes>
   )
 
