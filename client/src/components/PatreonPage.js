@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { Fragment } from "react";
+import MediaPlayer from "./shared/MediaPlayer";
 
 const PatreonPage = () => {
   return (
-    <div>Future djmiked Patreon Page</div>
-  )
-}
+    <Fragment>
+      <div>Future djmiked Patreon Page</div>
+      <MediaPlayer />
+    </Fragment>
+  );
+};
 
-export default PatreonPage
+export default PatreonPage;
