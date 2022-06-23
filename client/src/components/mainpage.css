@@ -1,0 +1,26 @@
+.navbar {
+  border: 1px solid black;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 1vh;
+}
+
+.mainpage-body {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border: 1px solid green;  
+  height: 70vh;
+}
+
+.footer {
+  border: 1px solid blue;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.media-player {
+  margin-left: 10vw;
+  margin-right: 10vw;   
+  background-color: orange;  
+  border: 1px solid orange;
+}
