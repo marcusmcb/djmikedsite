@@ -4,11 +4,10 @@ import "react-h5-audio-player/lib/styles.css";
 
 const MediaPlayer = () => {
   return (
-    <AudioPlayer
+    <AudioPlayer          
       autoPlay
       src="http://example.com/audio.mp3"
-      onPlay={(e) => console.log("onPlay")}
-      
+      onPlay={(e) => console.log("onPlay")}      
       // other props here
     />
   );

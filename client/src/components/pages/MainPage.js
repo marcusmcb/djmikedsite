@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import MediaPlayer from '../shared/MediaPlayer'
 import Navbar from '../shared/Navbar'
+import Footer from '../shared/Footer'
 import './mainpage.css'
 
 const MainPage = () => {
@@ -9,16 +10,11 @@ const MainPage = () => {
       <Navbar/>
       <div className='mainpage-body'>
         <h3>main page body</h3>
-      </div>
-      {/* <div className='media-player'>
-        <h3>media player</h3>
-      </div> */}
+      </div>     
       <div className='media-player'>
         <MediaPlayer />
       </div>
-      <div className='footer'>
-        <h3>site footer</h3>
-      </div>
+      <Footer />
     </Fragment>
   )
 }
