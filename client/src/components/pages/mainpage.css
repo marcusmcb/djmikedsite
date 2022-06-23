@@ -1,0 +1,16 @@
+.mainpage-body {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border: 1px solid green;    
+}
+
+.media-player {
+  margin-left: 10vw;
+  margin-right: 10vw;         
+}
+
+.footer {
+  border: 1px solid blue;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}

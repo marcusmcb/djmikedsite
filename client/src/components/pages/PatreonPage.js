@@ -1,11 +1,9 @@
 import React, { Fragment } from "react";
-import MediaPlayer from "./shared/MediaPlayer";
 
 const PatreonPage = () => {
   return (
     <Fragment>
-      <div>Future djmiked Patreon Page</div>
-      <MediaPlayer />
+      <div>Future djmiked Patreon Page</div>      
     </Fragment>
   );
 };

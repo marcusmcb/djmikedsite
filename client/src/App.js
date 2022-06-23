@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-import MainPage from './components/MainPage'
-import GalleryPage from './components/GalleryPage'
-import PatreonPage from './components/PatreonPage'
-import ContactPage from './components/ContactPage'
+import MainPage from './components/pages/MainPage'
+import GalleryPage from './components/pages/GalleryPage'
+import PatreonPage from './components/pages/PatreonPage'
+import ContactPage from './components/pages/ContactPage'
 
 import './App.css'
 

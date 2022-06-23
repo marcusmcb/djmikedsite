@@ -8,9 +8,7 @@ const MediaPlayer = () => {
       autoPlay
       src="http://example.com/audio.mp3"
       onPlay={(e) => console.log("onPlay")}
-      style={{
-        width: '300px'
-      }}
+      
       // other props here
     />
   );
